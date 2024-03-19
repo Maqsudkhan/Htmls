@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 1</title>
+    <style>
+        body {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+          flex-direction: column;
+        }
+        table,
+      th,
+      td {
+        border: 3px solid black;
+        border-collapse: collapse;
+        padding: 1px 30px;
+        text-align: center;
+      }          
+
+        </style>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    
+    <table>
+<!-- 1 -->
+        <tr style="background-color: rgb(139, 231, 47);" class="my-table-tr">
+            <td><p>Row 1</p></td>
+            <td></td>
+            <td colspan="2"><p>ColumnSpan="2"</p></td>
+            <td colspan="2"><p>ColumnSpan="2"</p></td>
+
+        </tr>
+<!-- 2 -->
+        <tr>
+            <td style="background-color: rgb(237, 210, 173);"><p>Row 2</p></td>
+            <td style="background-color: rgb(237, 210, 173);"></td>
+            <td rowspan="3" colspan="2" style="background-color: rgb(237, 210, 173);"><p>Rowspan="3" <br>ColumnSpan="2"</p></td>
+            <td rowspan="5" colspan="2" style="background-color: rgb(237, 210, 173);"><p>Rowspan="5" ColumnSpan="2"</p></td>
+        </tr>
+<!-- 3 -->
+        <tr>
+            <td style="background-color: red;"><p>Row 3</p></td>
+            <td style="background-color: red;"></td>
+
+        </tr>
+<!-- 4 -->
+        <tr>
+            <td style="background-color: rgb(206, 176, 5);"><p>Row 4</p></td>
+            <td rowspan="5" style="background-color: rgb(206, 176, 5);"><p>Rowspan="5"</p></td>
+        </tr>
+<!--5 -->
+        <tr>
+            <td style="background-color: rgb(45, 107, 241);"><p>Row 5</p></td>
+            <td colspan="2" style="background-color: rgb(45, 107, 241);"><p>ColumnSpan="2"</p></td>
+        </tr>
+<!-- 6 -->
+        <tr>
+            <td style="background-color: rgb(134, 76, 5);"><p>Row 6</p></td>
+            <td colspan="2" style="background-color: rgb(134, 76, 5);"><p>ColumnSpan="2"</p></td>
+        </tr>
+<!-- 7 -->
+        <tr>
+            <td style="background-color: rgb(103, 141, 174);"><p>Row 7</p></td>
+            <td style="background-color: rgb(103, 141, 174);"></td>
+            <td colspan="2" style="background-color: rgb(103, 141, 174);"><p>ColumnSpan="2"</p></td>
+            <td style="background-color: rgb(103, 141, 174);"></td>
+        </tr>
+<!-- 8 -->
+        <tr>
+            <td style="background-color: rgb(87, 102, 114);"><p>Row 8</p></td>
+            <td style="background-color: rgb(87, 102, 114);"></td>
+            <td colspan="2" style="background-color: rgb(87, 102, 114);"><p>ColumnSpan="2"</p></td>
+            <td style="background-color: rgb(87, 102, 114);"></td>
+        </tr>
+
+    </table>
+    <div>
+        <div>
+            <a style="text-decoration-line: none;" href="TableTwo.html"><p>Table 2 ga o'tish</p></a>
+            <a style="text-decoration-line: none;" href="TableThree.html"><p>Table 3 ga o'tish</p></a>
+            <a style="text-decoration-line: none;" href="TableFour.html"><p>Table 4 ga o'tish</p></a>
+            <a style="text-decoration-line: none;" href="TableFive.html"><p>Table 5 ga o'tish</p></a>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+
+.my-table{
+    border: 3px solid black;
+}
+
+.my-table-tr th {
+    border: 1px solid black;
+}
