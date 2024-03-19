@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.Main {
+  display: flex;
+  gap: 10px;
+  column-gap: 30px;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
