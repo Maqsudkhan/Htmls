@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  table,
+  th,
+  td {
+    border: 2px solid;
+  }
+  
+  tr th h1 {
+    color: red;
+  }
+  
+  regstrations {
+    background-color: #ffffaa;
+  }
+  
+  tbody {
+    background-color: #00ccff;
+  }
+  
+  tr td {
+    padding: 10px 25px;
+  }
+  
+  textarea,
+  input[type="text"] {
+    width: 230px;
+  }
+  
+  tbody tr:last-child {
+    text-align: center;
+  }
+  
+  tbody input[type="button"] {
+    padding: 15px 35px;
+    font-size: 18px;
+  }
