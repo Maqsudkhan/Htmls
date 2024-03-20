@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.Headr { 
+    background-color: #DE8704;
+    margin-top: 50px;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.SignUp{
+     padding-left: 10px;
+     color: yellow; 
+}
+
+.Tana {
+    background-color: #222536;
+    width: 400px;
+    /* margin-top: 70px; */
+    height: 450px;
+}
+
+.Name{
+    margin-left: 20%;
+    margin-top: 3%;
+    font-size: 17px;
+    color: yellow;
+}
+
+.Date{
+    margin-left: 20%;
+    margin-top: 3%;
+    font-size: 17px;
+    color: yellow;
+}
+
+.email{
+    margin-left: 24%;
+    margin-top: 3%;
+    font-size: 17px;
+    color: yellow;
+}
+
+.phone{
+    margin-left: 23%;
+    margin-top: 3%;
+    font-size: 17px;
+    color: yellow;
+}
+
+.password{
+    margin-left: 18%;
+    margin-top: 3%;
+    font-size: 16px;
+    color: yellow;
+}
+
+.Cpassword{
+    margin-left: 4%;
+    margin-top: 3%;
+    font-size: 15px;
+    color: yellow;
+}
+
+.checkbox{
+    margin-left: 45%;
+    margin-top: 3%;
+    font-size: 15px;
+    color: yellow;
+}
+
+
+.submit{
+    background-color: #DE8704;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sub,
+.can {
+  background-color: green;
+  font-size: 15px;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+}
+.sub {
+  margin-left: 50%;
+}
+.can {
+  background-color: red !important;
+}
+

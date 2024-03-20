@@ -5,7 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table 1</title>
 </head>
+<link rel="stylesheet" href="Table1.css">
+
 <body>
-    
+
+    <div class = "Headr"> <b class="SignUp">Sign Up</b></div>
+
+    <div class="Tana">
+
+        
+        <form class="Name" >
+            <label for="fname">First name: </label>
+            <input type="text" id="fname" placeholder="Enter First Name" ><br> <br>
+
+            <label for="lname">Last name: </label>
+            <input type="text" id="lname" placeholder="Enter Last Name"><br><br>
+
+            <label style="margin-left: -6%;" for="date_birth">Date of Birth:</label>
+
+            <select id="date_birth" name="date_birth">
+                <option hidden>Date</option>
+            </select>
+
+            <select name="Month" id="">
+                <option hidden>Month</option>
+            </select>
+        
+            <select name="Year" id="">
+                <option hidden>Year</option> 
+            </select><br><br>
+
+            <label style="margin-right: 20px;">Gender</label>
+            <input type="radio" id="male" name="fav_language" />
+            <label for="male">Male</label>
+            <input type="radio" id="fmale" name="fav_language" />
+            <label for="fmale">Fmale</label><br /> <br>
+
+            <label for="country" style="margin-right: 15px;">Country: </label>
+            <select name="country"> 
+                <option hidden>Country</option>
+                <option value="Uzbekistan">Uzbekistan</option>
+            </select> <br><br>
+
+                
+
+        </form> 
+            <label class="email" for="email" style="margin-right: 15px;" >Email:</label>
+            <input type="email" id="email" placeholder="Enter email" />  <br><br>
+
+            <label class="phone" for="phone" style="margin-right: 15px;" >Phone:</label>
+            <input type="email" id="phone" placeholder="Enter Phone" />  <br><br>
+
+            <label class="password" for="password" style="margin-right: 15px;" >Password:</label>
+            <input type="password" id="password" /><br><br>
+
+            <label class="Cpassword" for="password" style="margin-right: 15px;" >Coniform password:</label>
+            <input type="password" id="password" />
+        
+
+            <div class="checkbox">
+                <label><input type="checkbox" /> I Agree to the Terms of use</label> <br><br>
+            </div>
+        
+                
+                       
+    </div>
+
+    <div class="submit">
+        <input  type="submit" value="Submit" class="sub" />
+        <input type="submit"  value="Cancel" class="can" />
+    </div>
+
+
 </body>
 </html>
