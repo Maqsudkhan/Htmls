@@ -78,3 +78,14 @@ fieldset{
   font-size: 15px;
   color: white;
 }
+
+.btn{
+  width: 30%;
+  margin-left: 35%;
+  font-size: 15px;
+  margin-top: 55px;
+  color: #685ca8;
+  background-color: #212121;
+  border: none;
+  margin-bottom: 100px;
+}
