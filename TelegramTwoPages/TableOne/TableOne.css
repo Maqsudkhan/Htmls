@@ -38,3 +38,43 @@
     color: #787878;
     font-size: 14px;
 }
+
+fieldset{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 3%;
+  color: #979797;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.Box1{
+
+    background-color: #212121;
+    color: white;
+    border-color: #212121;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 10px; 
+    border-radius: 10px;
+}
+
+.Box2{
+
+  width: 100%;
+  border: 1px solid transparent;
+  height: 35px;
+  margin-left: 8px;
+  padding-bottom: 5px;
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+}
+
+.checkBox{
+  width: 100%;
+  margin-left: 30%;
+  margin-top: 20px;
+  font-size: 15px;
+  color: white;
+}
