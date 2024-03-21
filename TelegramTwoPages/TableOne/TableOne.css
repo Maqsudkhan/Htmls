@@ -18,3 +18,23 @@
     height: 700px;
     background-color: #212121;
 }
+
+.TgImage{
+  margin-top: 40px;
+  margin-left: 85px;
+
+}
+
+.StrTg{
+    text-align: center;
+    margin-top: 1px;
+    color: white;
+    font-size: 27px;  
+}
+
+.StrTgBottom{
+    text-align: center;
+    margin-top: 10px; 
+    color: #787878;
+    font-size: 14px;
+}
