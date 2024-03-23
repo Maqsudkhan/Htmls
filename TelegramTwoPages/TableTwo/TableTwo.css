@@ -8,11 +8,7 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
 
-.Flex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
   body {
     background: url("/images/discord-bg.svg");
     background-repeat: no-repeat;
@@ -21,6 +17,12 @@
     height: 92vh
   }
 
+  
+.Flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .DivBody{
     height: 300px;
@@ -38,13 +40,38 @@
     text-align: center;
   }
 
+.header p {
+    margin-top: 8px;
+    color: #b5bac1;  
+}
+
+h1 {
+    font-size: 24px;
+  }
+.forgotPassword button {
+    margin: 0 0 8px 0;
+    padding: 2px 16px;
+    height: 40px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #5865f2;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+
 .input-wrapper {
     display: block;
     flex-direction: column;
     margin-right: 100px;
     gap: 8px;
+    /* position: relative; */
 }
 .email {
     margin-bottom: 20px;
   }
 
+.qrcode{
+    margin-right: 32px;
+}

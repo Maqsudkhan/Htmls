@@ -9,17 +9,35 @@
 <body class="Flex">
     
     <div class="DivBody Flex">
+        <form>
         <div class="header">
-            <h1 style="color: white; font-size: 17px;">Welcome back!</h1>
-            <p style="color: #91959B; font-size: 12px;">We're so excited to see you again!</p><br>
+            <h1>Welcome back!</h1>
+            <p>We're so excited to see you again!</p>
         </div>
 
-        <div class="input-wrapper ">
+        <div class="input-wrapper email ">
             <label for="">Email or phone number</label>
             <input style="" type="email" name="emaill" id="emaill">
         </div>
 
         <div>
+            <label for="">password</label>
+            <input type="password" name="password" id = "password"/>
+        </div>
+
+        <div class="forgotPassword">
+            <a href="forgotpassword">Forgot your password?</a>
+            <button>Log In</button>
+        </div>
+
+        <div class="registration">
+            <p>Need an account?</p>
+            <a href="/register">Register</a>
+        </div>
+    </form>
+
+    <div>
+        <div class="qrcode">
             <img src="/images/qrcode.png" alt="Bu yerda QR code image bor edi.">
             <div>
                 <h2 style="color: white; font-size: 15px; text-align: center;">Log in with QR Code</h2>
@@ -30,7 +48,8 @@
               </div>
         </div>
         
-
+    </div>
+        
     </div>
 
 </body>
