@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.tana {
+  background-image: url("https://s3-alpha-sig.figma.com/img/9609/6210/313e5712fe956b8a3abc4fa718eb3969?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b~g-965P9dVC6vpncFEPEyNjQysWXTLtlRMC2I0dzhCVG572A6f51SB~7YIjfBEUHj5H9aTCv70CKXWeeU4JiQk7beN4xa77Q5sMrAPloR9gl4fGequqlHNA8qfQoj5FEwd1bxtPC1NYxixJF2gP8TP7QfVi6hVPpDXp04Ybbv8r3LnvehWMaApc4iTCreNsvkTiKuU7P1Q96ayRrJ9rY7P4JMrLtkEaoLx9UUf3-mCZGZpa~gupTAA3GaKwfNPq0UdBTxbyas6kkCy5B6nxA7mIDc1d~xGTfQRz1AnNiCwyzzf9Tq1fXbS7AaFuNV0S1LP62-7Ub3wFCBWkMK8X7Q__");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-position: center;
+  height: 750px;
+  overflow: hidden;
+
+}
+
+
+.soya{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 31, 218, 0.6);
+    z-index: -1;
+}
+
+.kattanavbar{
+    
+    margin-left: 17%;
+    width: 1000px;
+    /* border: 2px solid black; */
+    height: 130px;
+    left: 312px;
+}
+
+.poysik{
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 60%;
+    display: flex;
+    border-bottom: 2px solid ; 
+    justify-content:space-between;
+    color: #A5B5D3;
+    
+    
+}
+
+.poysik > p{
+    color: white;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    
+}
+
+.navbar > a{
+    text-decoration: none;
+    color: white;
+}
