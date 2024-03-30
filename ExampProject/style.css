@@ -23,7 +23,7 @@
 .soya{
     width: 100%;
     height: 100%;
-    background-color: rgba(50, 50, 255, 0.6);
+    background-color: rgba(46, 101, 254, 0.6);
     z-index: -1;
 }
 
@@ -72,6 +72,7 @@
     margin-left: 255px;
     /* border: 1px solid black; */
     color: white;
+    
 }
 
 
@@ -93,15 +94,15 @@
 }
 
 .kattakichikbtn{
-    margin-left: 100px;
+    margin-left: 240px;
 }
 
 .kattakichikbtn > button{
     color: white;
     background-color: #133D8D;
     border-color: #133D8D;
-    width: 45px;
-    height: 45px;
+    width: 42px;
+    height: 42px;
     margin-left: 15px;
 }
 
