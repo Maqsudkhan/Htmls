@@ -81,12 +81,13 @@
     margin-left: 850px;
     position: absolute;
     margin-top: -37px;
+    position: absolute;
     
 }
 
 .tanker > p{
-    margin-top: 15px;
-    font-size: 13px;
+    margin-top: 18px;
+    font-size: 12px;
     color: rgb(222, 220, 220);
     margin-left: 27px;
 }
