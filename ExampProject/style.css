@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
 
@@ -14,6 +15,7 @@
   background-position: center;
   height: 750px;
   overflow: hidden;
+  position: relative;
 
 }
 
@@ -62,3 +64,33 @@
     text-decoration: none;
     color: white;
 }
+
+.perviy{
+    width: 497px;
+    height: 285px;
+    margin-top: 88px;
+    margin-left: 255px;
+    /* border: 1px solid black; */
+    color: white;
+}
+
+
+.tanker{
+    width: 413px;
+    height: 180px;
+    margin-left: 850px;
+    position: absolute;
+    margin-top: -37px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
