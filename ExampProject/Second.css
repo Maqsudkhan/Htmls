@@ -1,0 +1,169 @@
+footer{
+    width: 100%;
+    background-color: #133D8D;
+    color: white;
+}
+footer > p{
+    font-size: 36px;
+    text-align: center;
+}
+.oxir{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid white; */
+}
+.bolak{
+    /* border: 1px solid red; */
+    width: 18%;
+}
+.bolak> h2{
+    font-size: 16px;
+    line-height: 22.4px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.bolak > a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 18px;
+    font-size: 13px;
+}
+.bolak > p{
+    color: white;
+    margin-top: 18px;
+    font-size: 13px;
+    text-align: right;
+}
+
+
+.kattanavbar{
+    
+    margin-left: 17%;
+    width: 1000px;
+    /* border: 2px solid black; */
+    height: 130px;
+    left: 312px;
+}
+
+.poysik{
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 60%;
+    display: flex;
+    border-bottom: 2px solid ; 
+    justify-content:space-between;
+    color: #A5B5D3;
+}
+.poysik > p{
+    color: white;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px !important;
+    justify-content: space-around;
+    
+}
+
+.navbar > a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav{
+    background-color: #133D8D;
+    height: 160px;
+}
+
+
+
+/* tana ----------------------- */
+*{
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+.textBox{
+    width: 76%;
+    margin-left: 12%;
+    margin-top: 80px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.yozuv{
+    width: 60%;
+
+}
+.yozuv > h1{
+    font-size: 32px;
+    line-height: 44.8px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+svg{
+    width: 3px;
+    height: 6px;
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.yozuv  p{
+    font-size: 13px;
+    line-height: 18.2px;
+
+}
+.chiziq{
+    border-left: 3px solid red;
+}
+.chiziq > p{
+    margin-left: 30px;
+}
+.yozuv > h2{
+    font-size: 18px;
+    line-height: 22.5px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.raqamlar{
+    background-color: #133D8D;
+    color: white;
+    width: 37%;
+    margin-left: 3%;
+    margin-top: 150px;
+    height: 500px;
+    /* border: 1px solid red; */
+}
+.raqamlar > h1{
+    font-size: 18px;
+    line-height: 22.5px;
+    margin-left: 10%;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.numberlar{
+    /* width: 80%;
+    margin-left: 10%; */
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid green; */
+}
+.son{
+    /* border: 1px solid black; */
+    width: 40%;
+    margin-left: 10%;
+}
+.son > p{
+    font-size: 12px;
+    line-height: 19.6px;
+}
+.son > span{
+    font-size: 64px;
+    line-height: 89.6px;
+}

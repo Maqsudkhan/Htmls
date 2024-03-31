@@ -1,0 +1,126 @@
+footer{
+    width: 100%;
+    background-color: #133D8D;
+    color: white;
+}
+footer > p{
+    font-size: 36px;
+    text-align: center;
+}
+.oxir{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid white; */
+}
+.bolak{
+    /* border: 1px solid red; */
+    width: 18%;
+}
+.bolak> h2{
+    font-size: 16px;
+    line-height: 22.4px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.bolak > a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 18px;
+    font-size: 13px;
+}
+.bolak > p{
+    color: white;
+    margin-top: 18px;
+    font-size: 13px;
+    text-align: right;
+}
+
+
+.kattanavbar{
+    
+    margin-left: 17%;
+    width: 1000px;
+    /* border: 2px solid black; */
+    height: 130px;
+    left: 312px;
+}
+
+.poysik{
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 60%;
+    display: flex;
+    border-bottom: 2px solid ; 
+    justify-content:space-between;
+    color: #A5B5D3;
+}
+.poysik > p{
+    color: white;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px !important;
+    justify-content: space-around;
+    
+}
+
+.navbar > a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav{
+    background-color: #133D8D;
+    height: 160px;
+}
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.map{
+    width: 70%;
+    height: 720px;
+    margin-left: 15%;
+    margin-top: 80px;
+}
+.map>h1{
+    text-transform: uppercase;
+    margin-bottom: 50px
+}
+.xarita{
+    width: 100%;
+    height: 500px;
+    background-image: url("https://s3-alpha-sig.figma.com/img/6611/eb36/3538d12474cc3c20e0513cd7604ff933?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W~ojeiUYjBCnHb5hRSIX0SUPdvYKTk--Y9jdj0lmajgyfYd3rlpBnDLZbrHCN9Dp8hqNFY5l57Mk3YVd67S7CPpeaA8uqM9uu6~AqjRy8bhAS~vA5eAVtKgWjjEus7ZMF8HP~8Emd7ZsPHA0W7syWiV8IEmLhN9Bf6lfrIk~sI-5rmflXiZt71SJ3TKbzxpcUQDahNvxMDnSsZVGqozB7zL8UCIekTfzdGxwuwb04SxJGfwNHeSLql-l85GS4pX6Uy~u2JMpA32~6AHvFhhr-fTQBWFKtMWgbiA-g4J3IzA81AOwWGxj56KZWhczWdrMcokvhHWBpL5tS2VxKI6FtQ__");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid transparent;
+}
+.locatsiya{
+    width: 33%;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: white;
+    border: 1px solid transparent;
+}
+/* .locatsiya>button{
+    margin-top: 50px; margin-left: 50px;
+} */
+.locatsiya>p{
+    font-size: 14px;
+    line-height: 19.6px;
+    margin-left: 50px;
+}
+.locatsiya>p>svg{
+    color: red;
+    margin-right: 15px;
+}
