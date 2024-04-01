@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.kattanavbar{
+    
+    margin-left: 17%;
+    width: 1000px;
+    /* border: 2px solid black; */
+    height: 130px;
+    left: 312px;
+}
+
+.poysik{
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 60%;
+    display: flex;
+    border-bottom: 2px solid ; 
+    justify-content:space-between;
+    color: #A5B5D3;
+}
+.poysik > p{
+    color: white;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px !important;
+    justify-content: space-around;
+    
+}
+
+.navbar > a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav{
+    background-color: #133D8D;
+    height: 160px;
+}
+
+
+.tana4{
+    width: 76%;
+    margin-left: 12%;
+    margin-top: 80px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vakansiya > h1{
+    font-size: 32px;
+    line-height: 44.8px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+svg{
+    width: 3px;
+    height: 6px;
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.vakansiya  p{
+    font-size: 13px;
+    line-height: 18.2px;
+}
+
+.tanker1 div > h5{
+    text-transform: uppercase;
+    
+}
+
+.tanker1 > div{
+    border: 1px solid#C2C2C2;
+    flex-wrap: wrap;
+}
