@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
@@ -13,14 +13,515 @@
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
-    />
+    /> -->
+    <script>
+      function myFunction() {
+        document.getElementById('tort').innerHTML = 'Funksiya orqali ishlayapti'
+      }
+    </script>
+
 </head>
 <body>
+    <p id="bir">Hello Maqsudkhan</p>
+    <button type="button" onclick="document.getElementById('bir').innerHTML = 'Salom Maqsud'">Text change</button> <br>     
+    <p>_____________________</p>
+    <button type="button" onclick="document.getElementById('bir').style.color = 'red'">Color change</button> <br>
+    <p>_____________________</p>
+    <button type="button" onclick="document.getElementById('bir').style.display = 'none'">Text None</button> <br>
+    <p>_____________________</p>
+    <p id="ikki" style="display: none;">Nima gap Maqsudkhan</p>
+    <button type="button" onclick="document.getElementById('ikki').style.display = 'block'">Display block</button>
+     
+    <p>_____________________</p>
+    <p id="uch"></p>
+    <script>
+      document.getElementById('uch').innerHTML = "My Firts JavaScript";
+    </script>
 
-    <div>
-        
-    </div>
+    <p>_____________________</p>
+    <p id="tort">Ishlayapti</p>
+    <button type="button" onclick="myFunction()">By Function</button>
 
-    
-</body>
+    <p>_____________________</p>
+    <p id="besh"></p>
+    <script>document.getElementById('besh').innerHTML = 7*11</script>
+
+    <script>document.write(5+6)</script><br>
+    <script>document.write('Hello')</script>
+
+    <p>_____________________</p>
+    <button type="button" onclick="document.write('1+1')">Try it</button>
+
+    <!-- <script>window.alert('Hello ')</script>
+    <script>alert('Salom')</script> -->
+
+    <script>console.log(4/2)</script> <br>
+
+    <button onclick="window.print()">Print this page</button>
+
+    <p>_____________________</p>
+    <p id="olti"></p>
+    <script>
+      let x,y,z;
+      x = 5.5
+      y = 10
+      z = x + y
+      document.getElementById('olti').innerHTML = 'x + y = ' + z + ' ga teng.'
+    </script>
+
+    <p>_____________________</p>
+    <p id="yetti"></p>
+    <p id="sakiz"></p>
+    <button type="button" onclick="MyFunctionTwo()">Click Me</button>
+    <script>
+      function MyFunctionTwo(){
+        document.getElementById('yetti').innerHTML = "Hello Dolly";
+        document.getElementById('sakiz').innerHTML = "How are you?"
+      }
+    </script>
+
+    <p>_____________________</p>
+    <h1 id="tuqqiz"></h1>
+    <p id="on"></p>
+    <script>
+      document.getElementById('tuqqiz').innerHTML = "Maqsud9";
+      document.getElementById('on').innerHTML = "Maqsud10";
+    </script>
+
+    <p>_____________________</p>
+    <p id="onbir"></p>
+    <script>
+      try{
+        carName = "Nexia";
+        let carName = "Nexia 2"
+      }
+      catch(err){
+        document.getElementById('onbir').innerHTML = err
+      }
+    </script>
+
+    <p>_____________________</p>
+    <script>
+      const Pi = 3.14;
+      document.getElementById('onbir').innerHTML = Pi
+    </script>
+
+    <p>_____________________</p>
+    <p id="onikki"></p>
+    <script>
+      const cars = ["nexia 1", "nexia 2", "nexia 3", "cobolt", "captiva", "gentra"];
+      cars[2] = "ravon ";
+      cars.push("malubi");
+      cars.pop(4);
+      
+      document.getElementById('onikki').innerHTML = cars;
+    </script>
+
+<p>_____________________</p>
+<p id="13"></p>
+<script>
+  const user = {name: "maqsud", surname: "to'rayev", age: 21};
+  user.age = 22;
+  user.gender = "male";
+  document.getElementById('13').innerHTML = user.age;
+
+</script>
+
+<p>_____________________</p>
+<p id="14"></p>
+<script>
+  try{
+    alert(carName14);
+    const carName14 = "nexia 2";
+  }
+  catch(err){
+    document.getElementById('14').innerHTML = err;
+  }
+</script>
+
+<p>_____________________</p>
+<p id="151"></p>
+<p id="152"></p>
+<p id="153"></p>
+<script>
+  let text151 = "A";
+  let text152 = "B";
+  let son151 = "20";
+  let son152 = "15";  
+  let result151 = text151 < text152;
+  let result152 = son151 > son152;
+  document.getElementById("151").innerHTML = `${text151.codePointAt()}, ${text152.codePointAt()}`;
+  document.getElementById("152").innerHTML = result151;
+  document.getElementById("153").innerHTML = result152;
+</script>
+
+<p>_____________________</p>
+<p id="16"></p>
+<script>
+  let a16 = 16 % 11
+  document.getElementById("16").innerHTML = a16;
+</script>
+
+<p>_____________________</p>
+<p id="17"></p>
+<script>
+  let result17 = myFunction17(11, 6);
+  document.getElementById("17").innerHTML = result17;
+
+  function myFunction17(p1, p2){
+    return p1*p2;
+  }
+</script>
+
+<p>_____________________</p>
+<p id="18"></p>
+<script>
+  let result18 = myFunction18(11, 8);
+  document.getElementById("18").innerHTML = result18;
+
+  function myFunction18(p1, p2){
+    return p1*p2;
+  }
+</script>
+
+<p>_____________________</p>
+<p id="191"></p>
+<p id="192"></p>
+<p></p>
+<script>
+  const user19 = {
+    firstName : "Maqsud",
+    lastNmae : "To'rayev", 
+    age : 21, gender : "erkak"
+  };
+  document.getElementById('191').innerHTML = user19.lastNmae + " " + user19.firstName + " " + user19.age + " " + "yoshli" + " " + user19["gender"];
+</script>
+
+<p>_____________________</p>
+<p id="20"></p>
+<button onclick="document.getElementById('20').innerHTML = Date()">Hozirgi vaqt</button>
+
+<p>_____________________</p>
+<p id="21"></p>
+<button onclick="this.innerHTML = Date()">Thi time is🕔</button>
+
+<p>_____________________</p>
+<p id="22"></p>
+<button onclick="displeyDate()">ByFunctionDate</button>
+<script>
+  function displeyDate(){
+    let text = Date()
+    document.getElementById('22').innerHTML = text.length;
+  }
+</script>
+
+<!-- <div>
+<p>_____________________</p>
+<p id="231"></p>
+<p id="232"></p>
+<p id="233"></p>
+<p id="234"></p>
+<p id="235"></p>
+<p id="236"></p>
+<script>
+  document.getElementById('231').innerHTML = "Hello \b Maqsudkhan.";
+  document.getElementById('232').innerHTML = "Hello \f Maqsudkhan.";
+  document.getElementById('233').innerHTML = "Hello \n Maqsudkhan.";
+  document.getElementById('234').innerHTML = "Hello \r Maqsudkhan.";
+  document.getElementById('235').innerHTML = "Hello \t Maqsudkhan.";
+  document.getElementById('236').innerHTML = "Hello \v Maqsudkhan.";
+</script>
+</div> -->
+
+<p>_____________________</p>
+<script>
+  function Add24(a,b){
+    var x = a + b;
+    document.getElementById('24').innerHTML = x;
+  }
+</script>
+<button onclick="Add24(11, 22)">Add</button>
+<p id="24"></p>
+
+<p>_____________________</p>
+<p id="25"></p>
+<script>
+  const fruits25 = ["banana", "apple", "orange", "mango", "pear"]
+  let fruitsLength = fruits25.length;
+  let txt25 = "<ul>"
+  for (let i = 0; i < fruitsLength; i++){
+    txt25 += "<li>" + fruits[i] + "</li>";
+  }
+  txt25 += "</ul>";
+  document.getElementById('25').innerHTML = txt25;
+</script>
+
+<p>_____________________</p>
+<p id="26"></p>
+<script>
+  let tags = ["template strings", "javascript", "es6"];
+  let result26 = `<ul>`;
+    for (const x of tags){
+      result26 += `<li>${x}</li>`
+    }
+  result26 += `</ul>`;
+  document.getElementById('26').innerHTML = result26;
+</script>
+
+<p>_____________________</p>
+<p id="27"></p>
+<script>
+  const fruits27 = ["banana", "apple", "orange", "mango", "pear", "xurmo", "behi"]
+  let txt27 = ""
+  txt27 = `<ul>`
+  for(let i = 0; i < fruits27.length; i++){
+    txt27 += `<li>${fruits27[i]}</li>`
+  }
+  txt27 += `</ul>`;
+  document.getElementById('27').innerHTML = txt27;
+</script>
+
+<p>_____________________</p>
+<p id="28"></p>
+<script>
+  const fruits28 = ["olma", "anor", "apilsen", "mandarin", "banan", "nok"]
+  let txt28 = "<ul>"
+  fruits28.forEach(myFunction28);
+  txt28 += "</ul>" ;
+
+  function myFunction28(value28){
+    txt28 += "<li>" + value28 + "</li>";
+  }
+  document.getElementById('28').innerHTML = txt28;
+</script>
+
+<p>_____________________</p>
+<button onclick="myFunction291()" style="color: red;">Sort Alphabetically</button>
+<button onclick="myFunction292()" style="color: red;">Sort Numerically</button>
+<p id="29"></p>
+<script>
+  const arr29 = [40, 100, 1, 5, 25, 10];
+  document.getElementById('29').innerHTML = arr29;
+
+  function myFunction291(){
+    arr29.sort()
+    document.getElementById('29').innerHTML = arr29;
+  }
+
+  function myFunction292(){
+    arr29.sort(function(a, b){return a-b})
+    document.getElementById('29').innerHTML = arr29;
+  }
+</script>
+
+<p>_____________________</p>
+<button onclick="myFunction30()" style="color: blue;">Try it</button>
+<p id="30"></p>
+<script>
+  const arr30 = [40, 100, 1, 5, 25, 10];
+  document.getElementById('30').innerHTML = arr30;
+  function myFunction30(){
+    arr30.sort(function(){return 0.5 - Math.random()})
+    document.getElementById('30').innerHTML = arr30;
+  }
+
+</script>
+
+<p>_____________________</p>
+<p id="31"></p>
+<script>
+    const arr31 = [40, 100, 11, 5, 25, 10];
+    document.getElementById('31').innerHTML = myArrayMin31(arr31);
+  function myArrayMin31(arr31){
+    let len = arr31.length;
+    let min = Infinity;
+    while (len--){
+      if(arr31[len] < min){
+        min = arr31[len]
+      }
+    }
+    return min
+  }
+</script>
+
+<p>_____________________</p>
+<p id="32"></p>
+<script>
+  const arr32 = [28, 107, 161, 15, 285, 198];
+  let txt32 = "";
+  arr32.forEach(myFunction32);
+  document.getElementById('32').innerHTML = txt32;
+  function myFunction32(value32, index32, arr32){
+    txt32 += value32 + " "
+  }
+</script>
+
+<p>_____________________</p>
+<p id="33"></p>
+<script>
+  const arr33 = [5,9,7,55,626,4965,-78];
+  const newArr33 = arr33.map(myFunction33)
+  function myFunction33(value33, index33, arrr33){
+    if (value33 > 500){
+      return value33;
+    }
+    else return 0;
+  }
+  document.getElementById('33').innerHTML = newArr33;
+</script>
+
+<p>_____________________</p>
+<p id="34"></p>
+<script>
+  const arr34 = [798,79,745,5,98,1];
+  const newArr34 = arr34.flatMap((x) => x + 1);
+  document.getElementById('34').innerHTML = newArr34;
+</script>
+
+<p>_____________________</p>
+<p id="35"></p>
+<script>
+  const arr35 = [78,98,52,655,755,11,322];
+  const over100 = arr35.filter(myFunction35);
+  function myFunction35(value35){
+    return value35 > 100;
+  }
+  document.getElementById('35').innerHTML = over100;
+</script>
+
+<p>_____________________</p>
+<p id="361"></p>
+<p id="362"></p>
+<script>
+  const arr36 = [4,5,78,96,15,84];
+  let sum36 = arr36.reduce(myFunction36);
+  let allover = arr36.every(myFunction362)
+  function myFunction36(firstItem36, lastItem36, index36, arr36){
+    return firstItem36 + lastItem36;
+  }
+function myFunction362(value361, index361, arr361){
+  return value361 > 3
+}
+
+  document.getElementById('361').innerHTML = sum36;
+  document.getElementById('362').innerHTML = allover;
+</script>
+
+<p>_____________________</p>
+<p id="37"></p>
+<script>
+  const arr37 = [77,85,985,18];
+  let someOver= arr37.some(myFunction37);
+  function myFunction37(value37, index37, arr37){
+    return value37 > 100;
+  }
+  document.getElementById('37').innerHTML = someOver;
+</script>
+
+<p>_____________________</p>
+<p id="38"></p>
+<script>
+  const arr38 = Array.from("ABSDEFGHJKL");
+  document.getElementById('38').innerHTML = arr38;
+</script>
+
+<p>_____________________</p>
+<p id="39"></p>
+<script>
+  const arr39 = [48,465,98,845,45,754]
+  const keys39 = arr39.keys();
+  let txt39 = "";
+  for(let x of keys39){
+    document.getElementById('39').innerHTML += x + " ";
+  }
+</script>
+
+<p>_____________________</p>
+<p id="401"></p>
+<p id="402"></p>
+<script>
+  const fruits40 = ["Banana", "Orange", "Apple", "Mango"];
+  const fruit40 = fruits40.entries();
+  const fruitsWith40 = fruits40.with(1, "Apelsin")
+  for (let x of fruit40){
+    document.getElementById('401').innerHTML += x + "<br>";
+  }
+  document.getElementById('402').innerHTML = fruitsWith40;
+</script>
+
+<p>_____________________</p>
+<p id="41"></p>
+<script>
+  const q411 = ["Jan", "Feb", "Mar"];
+  const q412 = ["Apr", "May", "Jun"];
+  const q413 = ["Jul", "Aug", "Sep"];
+  const q414 = ["Oct", "Nov", "May"];
+  
+  const year41 = [...q411, ...q412, ...q413, ...q414];
+  document.getElementById("41").innerHTML = year41; 
+</script>
+
+<p>_____________________</p>
+<p id="42"></p>
+<button onclick="document.getElementById('42').innerHTML = getRandomInteger42(0,10)">Random sonni olish</button>
+<script>
+  function getRandomInteger42(min, max){
+    return Math.floor(Math.random() * (max - min) + min);
+  }
+</script>
+
+<p>_____________________</p>
+<p id="43"></p>
+<button onclick="document.getElementById('43').innerHTML = getRandomInteger43(0,10)">Random sonni olish</button>
+<script>
+  function getRandomInteger43(min, max){
+    return Math.floor(Math.random() * (max - min + 1) + min);
+  }
+</script>
+
+<p>_____________________</p>
+<p id="44"></p>
+<input id="age44" value="21">
+<button onclick="myFunction44()">Try it</button>
+<script>
+  function myFunction44(){
+    let age44 = document.getElementById('age44').value;
+    let votable44 = (age44 < 21) ? "To young" : "Old enough";
+    document.getElementById('44').innerHTML = votable44;
+  }
+</script>
+
+<p>_____________________</p>
+<input id="demo45">
+<button onclick="myFunction45()">Click me</button>
+<p id="45"></p>
+<script>
+  function myFunction45(){
+    let day45string;
+    let day45number = Number(document.getElementById('demo45').value);
+    switch (day45number){
+      case 1:day45string = "Monday"; break;
+      case 2:day45string = "Tuesday"; break;
+      case 3:day45string = "Wednesday"; break;
+      case 4:day45string = "Thursday"; break;
+      case 5:day45string = "Friday"; break;
+      case 6:day45string = "Sunday"; break;
+      case 7:day45string = "Saturday"; break;
+      default: day45string = "This day of the week does not exist❗"
+    }
+    document.getElementById('45').innerHTML = day45string;
+  }
+</script>
+
+
+ 
+
+
+
+
+
+
+
+
+</body> 
 </html>
